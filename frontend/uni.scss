@@ -1,0 +1,76 @@
+/* ========================================
+ * 爱心点单 - 全局SCSS变量
+ * 可爱甜美粉色主题色系
+ * ======================================== */
+
+// 主色调
+$primary-color: #FF6B9D;           // 粉色主色
+$primary-light: #FF8FB5;           // 浅粉色
+$primary-dark: #E55A8A;            // 深粉色
+
+// 辅助色
+$secondary-color: #FFA07A;         // 浅珊瑚色
+$secondary-light: #FFB89E;         // 浅浅珊瑚
+$secondary-dark: #E88A60;          // 深珊瑚色
+
+// 强调色
+$accent-color: #FF4757;            // 红色强调
+$accent-light: #FF6B7A;            // 浅红色
+
+// 背景色
+$bg-color: #FFF5F7;                // 淡粉背景
+$bg-white: #FFFFFF;                // 纯白背景
+$bg-card: #FFFFFF;                 // 卡片背景
+$bg-page: #FFF0F3;                 // 页面背景
+
+// 文字颜色
+$text-primary: #333333;            // 主文字
+$text-secondary: #666666;          // 次要文字
+$text-light: #999999;              // 浅色文字
+$text-white: #FFFFFF;              // 白色文字
+$text-pink: #FF6B9D;               // 粉色文字
+
+// 边框颜色
+$border-color: #FFE4EC;            // 浅粉边框
+$border-light: #FFF0F3;            // 更浅边框
+
+// 渐变
+$gradient-primary: linear-gradient(135deg, #FF6B9D, #FFA07A);
+$gradient-pink: linear-gradient(135deg, #FF6B9D, #FF8FB5);
+$gradient-warm: linear-gradient(135deg, #FFA07A, #FFD700);
+$gradient-love: linear-gradient(135deg, #FF4757, #FF6B9D);
+
+// 阴影
+$shadow-sm: 0 2rpx 8rpx rgba(255, 107, 157, 0.1);
+$shadow-md: 0 4rpx 16rpx rgba(255, 107, 157, 0.15);
+$shadow-lg: 0 8rpx 32rpx rgba(255, 107, 157, 0.2);
+$shadow-card: 0 4rpx 20rpx rgba(255, 107, 157, 0.12);
+
+// 圆角
+$radius-sm: 8rpx;
+$radius-md: 16rpx;
+$radius-lg: 24rpx;
+$radius-xl: 32rpx;
+$radius-round: 999rpx;
+
+// 字体大小
+$font-xs: 20rpx;
+$font-sm: 24rpx;
+$font-base: 28rpx;
+$font-md: 30rpx;
+$font-lg: 32rpx;
+$font-xl: 36rpx;
+$font-xxl: 40rpx;
+$font-title: 48rpx;
+$font-huge: 64rpx;
+
+// 间距
+$spacing-xs: 8rpx;
+$spacing-sm: 16rpx;
+$spacing-md: 24rpx;
+$spacing-lg: 32rpx;
+$spacing-xl: 48rpx;
+
+// 页面安全区域
+$safe-top: env(safe-area-inset-top);
+$safe-bottom: env(safe-area-inset-bottom);
