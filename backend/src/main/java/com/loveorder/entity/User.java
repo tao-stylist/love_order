@@ -41,6 +41,14 @@ public class User {
     @Column(length = 10)
     private String lastSignInDate;
 
+    /** 绑定的另一半用户ID */
+    @Column
+    private Long partnerId;
+
+    /** 绑定码，用于互相绑定 */
+    @Column(length = 12, unique = true)
+    private String bindCode;
+
     /** 创建时间 */
     @Column(nullable = false, updatable = false)
     private LocalDateTime createTime;

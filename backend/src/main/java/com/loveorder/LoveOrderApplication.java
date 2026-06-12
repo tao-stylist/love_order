@@ -16,7 +16,7 @@ public class LoveOrderApplication {
         SpringApplication.run(LoveOrderApplication.class, args);
         System.out.println("========================================");
         System.out.println("  情侣点餐系统后端启动成功！");
-        System.out.println("  接口文档: http://localhost:8080/swagger-ui.html");
+        System.out.println("  接口文档: http://localhost:8081/swagger-ui.html");
         System.out.println("========================================");
     }
 }

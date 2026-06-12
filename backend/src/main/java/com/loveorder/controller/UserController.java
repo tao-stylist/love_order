@@ -6,6 +6,7 @@ import com.loveorder.service.LovePointService;
 import com.loveorder.service.UserService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
+import lombok.Data;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;
@@ -54,5 +55,35 @@ public class UserController {
         Long userId = (Long) authentication.getPrincipal();
         Integer points = userService.dailySignIn(userId);
         return Result.success("签到成功", points);
+    }
+
+    @Operation(summary = "获取绑定码")
+    @GetMapping("/bind-code")
+    public Result<String> getBindCode(Authentication authentication) {
+        Long userId = (Long) authentication.getPrincipal();
+        String bindCode = userService.generateBindCode(userId);
+        return Result.success(bindCode);
+    }
+
+    @Operation(summary = "绑定伴侣")
+    @PostMapping("/bind")
+    public Result<Map<String, Object>> bindPartner(Authentication authentication,
+                                                   @RequestBody BindDTO bindDTO) {
+        Long userId = (Long) authentication.getPrincipal();
+        Map<String, Object> result = userService.bindPartner(userId, bindDTO.getBindCode());
+        return Result.success("绑定成功", result);
+    }
+
+    @Operation(summary = "获取伴侣信息")
+    @GetMapping("/partner")
+    public Result<User> getPartner(Authentication authentication) {
+        Long userId = (Long) authentication.getPrincipal();
+        User partner = userService.getPartner(userId);
+        return Result.success(partner);
+    }
+
+    @Data
+    public static class BindDTO {
+        private String bindCode;
     }
 }

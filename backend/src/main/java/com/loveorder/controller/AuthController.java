@@ -6,6 +6,7 @@ import com.loveorder.service.UserService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
+import lombok.Data;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
@@ -32,5 +33,24 @@ public class AuthController {
     public Result<Map<String, Object>> login(@Valid @RequestBody LoginDTO loginDTO) {
         Map<String, Object> result = userService.login(loginDTO);
         return Result.success(result);
+    }
+
+    /**
+     * 手机号登录
+     */
+    @Operation(summary = "手机号登录", description = "通过手机号登录或注册")
+    @PostMapping("/phone-login")
+    public Result<Map<String, Object>> phoneLogin(@Valid @RequestBody PhoneLoginDTO loginDTO) {
+        Map<String, Object> result = userService.phoneLogin(loginDTO.getPhone(), loginDTO.getNickname());
+        return Result.success(result);
+    }
+
+    /**
+     * 手机号登录请求
+     */
+    @Data
+    public static class PhoneLoginDTO {
+        private String phone;
+        private String nickname;
     }
 }

@@ -4,7 +4,55 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3b26418-fc0d-428a-88cb-d9a4c4be166f" name="更改" comment="" />
+    <list default="true" id="f3b26418-fc0d-428a-88cb-d9a4c4be166f" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loveorder/LoveOrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/loveorder/LoveOrderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loveorder/config/RedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loveorder/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/loveorder/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loveorder/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/loveorder/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loveorder/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/loveorder/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loveorder/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/loveorder/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loveorder/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/loveorder/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loveorder/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/loveorder/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/components/CartFloat/CartFloat.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/components/Countdown/Countdown.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/components/EmptyState/EmptyState.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/components/HeartRating/HeartRating.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/components/Loading/Loading.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/components/MenuItem/MenuItem.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/components/TabBar/TabBar.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/pages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/pages/anniversary/anniversary.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/pages/index/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/pages/login/login.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/pages/menu/menu.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/pages/order/order.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/pages/orders/detail.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/pages/orders/orders.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/pages/profile/profile.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/pages/review/review.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/static/tab/home-active.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/static/tab/home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/static/tab/menu-active.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/static/tab/menu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/static/tab/order-active.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/static/tab/order.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/static/tab/profile-active.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/static/tab/profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/store/order.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/store/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/uni.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/utils/auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/utils/date.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/utils/request.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +80,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -40,7 +93,10 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.fileTypes",
+    "project.structure.last.edited": "全局库",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -61,7 +117,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1778901062204</updated>
-      <workItem from="1778901063519" duration="1316000" />
+      <workItem from="1778901063519" duration="9582000" />
     </task>
     <servers />
   </component>
